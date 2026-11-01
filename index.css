@@ -43,3 +43,13 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #404040;
 }
+html, body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+  position: relative;
+}
+
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
