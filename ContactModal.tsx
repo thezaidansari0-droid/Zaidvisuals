@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { MessageCircle, Mail, Phone, X, Check, ArrowRight, ExternalLink, Sparkles } from 'lucide-react';
-import { PORTFOLIO_INFO } from '../data';
+import { PORTFOLIO_INFO } from './data';
 
 interface ContactModalProps {
   isOpen: boolean;
