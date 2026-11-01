@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Mic, Zap, Video, CheckCircle2, MessageCircle, Layers } from 'lucide-react';
-import { SERVICES, ServiceItem } from '../data';
+import { SERVICES, ServiceItem } from './data';
 
 interface ServicesProps {
   onOpenContact: (packageTitle?: string) => void;
