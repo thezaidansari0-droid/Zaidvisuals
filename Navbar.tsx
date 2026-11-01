@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, MessageCircle, ArrowUpRight } from 'lucide-react';
-import { PORTFOLIO_INFO } from '../data';
+import { PORTFOLIO_INFO } from './data';
 
 interface NavbarProps {
   onOpenContact: (packageTitle?: string) => void;
