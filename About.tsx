@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { User, Clock, Scissors, ShieldAlert, Sparkles, CheckCircle2, ArrowRight } from 'lucide-react';
-import { PORTFOLIO_INFO } from '../data';
+import { PORTFOLIO_INFO } from './data';
 
 interface AboutProps {
   onOpenContact: (packageTitle?: string) => void;
