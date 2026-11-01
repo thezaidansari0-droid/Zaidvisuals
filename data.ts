@@ -50,7 +50,7 @@ export const PORTFOLIO_INFO = {
   hoursDaily: "5-6 hours daily dedication",
   tagline: "Cuts That Keep People Watching.",
   // Default WhatsApp base
-  defaultWhatsAppNumber: "919997000000", // Fallback standard format, customizable
+  defaultWhatsAppNumber: "918193838652", // Fallback standard format, customizable
 };
 
 export const VIDEO_WORKS: VideoWork[] = [
