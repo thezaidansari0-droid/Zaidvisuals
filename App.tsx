@@ -10,7 +10,6 @@ import { SelectedWorks } from './SelectedWorks';
 import { Services } from './Services';
 import { Pricing } from './Pricing';
 import { About } from './About';
-import { Footer } from './Footer';
 import { ContactModal } from './ContactModal';
 import { FloatingWhatsApp } from './FloatingWhatsApp';
 
@@ -51,9 +50,7 @@ export default function App() {
         <About onOpenContact={handleOpenContact} />
       </main>
 
-      {/* Section 6: Footer & Contact (id="contact") */}
-
-
+      
       {/* Floating WhatsApp Quick Connect Button */}
       <FloatingWhatsApp onOpenContact={() => handleOpenContact()} />
 
