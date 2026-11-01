@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Tag, Check, MessageCircle, ArrowRight, ShieldCheck, Sparkles, Clock, AlertCircle } from 'lucide-react';
-import { SINGLE_PRICING, MONTHLY_PACKAGES } from '../data';
+import { SINGLE_PRICING, MONTHLY_PACKAGES } from './data';
 
 interface PricingProps {
   onOpenContact: (packageTitle?: string) => void;
