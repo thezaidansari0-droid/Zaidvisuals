@@ -4,15 +4,15 @@
  */
 
 import { useState } from 'react';
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { SelectedWorks } from './components/SelectedWorks';
-import { Services } from './components/Services';
-import { Pricing } from './components/Pricing';
-import { About } from './components/About';
-import { Footer } from './components/Footer';
-import { ContactModal } from './components/ContactModal';
-import { FloatingWhatsApp } from './components/FloatingWhatsApp';
+import { Navbar } from './Navbar';
+import { Hero } from './Hero';
+import { SelectedWorks } from './SelectedWorks';
+import { Services } from './Services';
+import { Pricing } from './Pricing';
+import { About } from './About';
+import { Footer } from './Footer';
+import { ContactModal } from './ContactModal';
+import { FloatingWhatsApp } from './FloatingWhatsApp';
 
 export default function App() {
   const [contactModalOpen, setContactModalOpen] = useState(false);
@@ -52,7 +52,7 @@ export default function App() {
       </main>
 
       {/* Section 6: Footer & Contact (id="contact") */}
-      <Footer onOpenContact={handleOpenContact} />
+
 
       {/* Floating WhatsApp Quick Connect Button */}
       <FloatingWhatsApp onOpenContact={() => handleOpenContact()} />
