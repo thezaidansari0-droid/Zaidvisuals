@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Play, MessageCircle, Mail, Instagram, MapPin, Clock, Sparkles, ShieldCheck } from 'lucide-react';
-import { PORTFOLIO_INFO } from '../data';
+import { PORTFOLIO_INFO } from './data';
 
 interface HeroProps {
   onOpenContact: () => void;
