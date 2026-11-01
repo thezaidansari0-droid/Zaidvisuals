@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { Maximize2, ExternalLink, Play, Film, CheckCircle2 } from 'lucide-react';
-import { VIDEO_WORKS, VideoWork } from '../data';
+import { VIDEO_WORKS, VideoWork } from './data';
 
 export function SelectedWorks() {
   const [activeWork, setActiveWork] = useState<string | null>(null);
