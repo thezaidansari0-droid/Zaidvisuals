@@ -20,7 +20,7 @@ export function ContactModal({ isOpen, onClose, initialMessage, packageTitle }: 
   
   const defaultText = packageTitle 
     ? `Hi Zaid, I would like to book or discuss the "${packageTitle}" package from your portfolio.`
-    : (initialMessage || "Hi Zaid, I saw your portfolio 'Zaid Visuals Co.' and I'd like to discuss video editing / get a free trial edit!");
+    : (initialMessage || "Hi Zaid, I saw your portfolio 'Zaid Visuals Co.' and I'd like to discuss video editing");
 
   const [message, setMessage] = useState(defaultText);
 
